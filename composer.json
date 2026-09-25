@@ -16,7 +16,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "OopPatterns\\Tests\\": "tests/"
+            "OopPatterns\\Tests\\": "patterns/"
         }
     },
     "scripts": {
