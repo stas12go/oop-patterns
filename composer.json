@@ -1,0 +1,25 @@
+{
+    "name": "oop-patterns/learning",
+    "description": "Паттерны ООП: документация, реализации и тесты как учебная программа",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OopPatterns\\": "patterns/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OopPatterns\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
